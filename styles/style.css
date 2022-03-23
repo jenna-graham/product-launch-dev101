@@ -3,7 +3,7 @@
 
 
 img {
-    width: 75%; 
+    width: 100vh; 
 }
 
 body {
@@ -14,11 +14,12 @@ body {
 }
 header {
     width: 50vw;
+    font-weight: 2000;
+    background-color: #b2a9a0ff;
 }
 main {
     width: 50vw;
     height: 100vh;
-    background-image: url(../assets/zem.jpeg);
     background-color: #b2a9a0ff;
     background-size: cover;
 }
@@ -27,4 +28,8 @@ main {
     body {
         flex-direction: row;
     }
+}
+
+.hide {
+    display: none;
 }
